@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  #gameArea {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    border-width: 20px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+  }
+  .snake {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: linear-gradient(to right, darkblue, darkorchid);
+  }
+  .food {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 100%;
+  }
+  .snake-head {
+    background-image: linear-gradient(to right, white, lightgray);
+  }
